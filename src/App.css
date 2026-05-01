@@ -182,3 +182,15 @@
     border-right-color: var(--border);
   }
 }
+
+.page{
+  background-color: black;
+  height: 100vh;
+}
+
+.selection-box
+{
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 700;
+}
