@@ -25,19 +25,25 @@ function App() {
 
   return (
     <>
-      <div className='page'>
-        <h1 style={{color: "white"}}> Hi Sam!</h1>
-        <p style={{color: "white", padding: "20px"}}>I think I like you 😍 </p>
-        
-        <select name="" id="select-box" className='selection-box' onChange={(e)=>{setRes(e.target.value)}}>
-          <option className='selection-box' value="144p">144p</option>
-          <option className='selection-box' value="360p">360p</option>
-          <option className='selection-box' value="720p">720p</option>
-          <option className='selection-box' value="1080p">1080p</option>
-        </select>
+      <div className='page' style={{display:"flex", flexDirection:"column", justifyContent: "space-between"}}>
+        <div>
+          <h1 style={{color: "white"}}> Hi Sam!</h1>
+          <p style={{color: "white", padding: "20px"}}>I think I like you 😍 </p>
+          
+          <select name="" id="select-box" className='selection-box' onChange={(e)=>{setRes(e.target.value)}}>
+            <option className='selection-box' value="144p">144p</option>
+            <option className='selection-box' value="360p">360p</option>
+            <option className='selection-box' value="720p">720p</option>
+            <option className='selection-box' value="1080p">1080p</option>
+          </select>
 
-        <img style={{width:"100vw"}} src={imageSelect()} alt="" />
+          <img style={{width:"100vw"}} src={imageSelect()} alt="" />
+        </div>
+        
+        <footer style={{color:"white", padding: "20px"}}>Made with love by Arka ❤️</footer>
       </div>
+
+
     </>
   )
 }
