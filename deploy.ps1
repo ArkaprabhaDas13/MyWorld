@@ -19,4 +19,4 @@ Write-Host "3. Set source to 'Deploy from a branch'" -ForegroundColor White
 Write-Host "4. Select 'main' branch and '/dist' folder" -ForegroundColor White
 Write-Host "5. Save and wait for deployment" -ForegroundColor White
 Write-Host ""
-Write-Host "Your site will be available at: https://YOUR_USERNAME.github.io/myworld/" -ForegroundColor Cyan
+Write-Host "Your site will be available at: https://YOUR_USERNAME.github.io/MyWorld/" -ForegroundColor Cyan

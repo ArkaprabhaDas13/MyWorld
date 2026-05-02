@@ -25,7 +25,7 @@ function App() {
 
   return (
     <>
-      <div className='page' style={{display:"flex", flexDirection:"column", justifyContent: "space-between"}}>
+      <div className='page' style={{display:"flex", flexDirection:"column"}}>
         <div style={{paddingTop: "30px"}}>
           <h1 style={{color: "white"}}> Hi Sam!</h1>
           <p style={{color: "white", padding: "20px"}}>I think I like you 😍 </p>
@@ -40,7 +40,7 @@ function App() {
           <img style={{width:"100vw"}} src={imageSelect()} alt="" />
         </div>
         
-        <footer style={{color:"white", padding: "60px"}}>Made with love by Arka ❤️</footer>
+        <footer style={{color:"white"}}>Made with love by Arka ❤️</footer>
       </div>
 
 
